@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Lab5</string>
+
+    <string-array name="irasai">
+        <item>Labas rytas</item>
+        <item>Vilnius</item>
+        <item>Android Studio</item>
+        <item>Kompiuteris</item>
+        <item>ABBA ir Ananasai</item>
+        <item>Tinklo serveris</item>
+        <item>Programavimas</item>
+        <item>OPEN SOURCE KODO</item>
+        <item>Fragmentai</item>
+        <item>Lietuvos Respublikos</item>
+        <item>Kaunas</item>
+        <item>Mėlynė ir Žemuogė</item>
+    </string-array>
+</resources>
