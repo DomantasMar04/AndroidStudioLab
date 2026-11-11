@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- 1 meniu: baigia programos darbą, rodomas ⋮ sąraše -->
+    <item
+        android:id="@+id/meniuIseiti"
+        android:title="Išeiti"
+        app:showAsAction="never" />
+
+    <!-- 2 meniu: visada matomas ActionBar, turi submeniu -->
+    <item
+        android:id="@+id/meniuLaikas"
+        android:title="Laikas"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/submeniuIvestiLaika"
+                android:title="Įvesti laiką" />
+        </menu>
+    </item>
+</menu>
